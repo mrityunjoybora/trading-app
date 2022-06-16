@@ -6,6 +6,7 @@ function Dashboard() {
   return (
     <div className="max-w-7xl mx-auto flex my-10 gap-10">
       <WatchList />
+      <StockWatch />
     </div>
   );
 }
