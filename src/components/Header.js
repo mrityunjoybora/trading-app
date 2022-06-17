@@ -11,20 +11,16 @@ function Header() {
           <img className="h-6" src={logo} alt="" />
           <div className="flex items-center">
             <div className="flex items-center gap-5 mx-5 text-sm">
-              <p>Dashboard</p>
-              <p>Orders</p>
-              <p>Holdings</p>
-              <p>Positions</p>
-              <p>Funds</p>
-              <p>Apps</p>
+              <p className="cursor-pointer">Dashboard</p>
+
             </div>
             <div className="flex items-center gap-3 px-5 text-sm">
               <img
-                className="h-8 w-8 rounded-full object-cover"
+                className="h-8 w-8 rounded-full object-cover cursor-pointer"
                 src={ProfilePhoto}
                 alt=""
               />
-              <p>DE7849</p>
+              <p className="cursor-pointer">DE7849</p>
             </div>
           </div>
         </div>
