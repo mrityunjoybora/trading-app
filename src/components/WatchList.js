@@ -19,7 +19,7 @@ const getStockData = (stock) => {
 
 const stocksList = ["AAPL", "MSFT", "TSLA", "FB", "SBUX"];
 
-let testData = ["", "", "", "", ""];
+let testData = [];
 
 function WatchList() {
 

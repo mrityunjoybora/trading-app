@@ -1,14 +1,20 @@
-import React from 'react'
-import StockWatch from './StockWatch';
-import WatchList from './WatchList'
+import React from "react";
+import StockWatch from "./StockWatch";
+import WatchList from "./WatchList";
 
 function Dashboard() {
   return (
-    <div className="max-w-7xl mx-auto flex my-10 gap-10 sm:px-auto px-20">
-      <WatchList />
-      <StockWatch />
+    <div className="max-w[1366px] mx-auto">
+      <div className="flex gap-10">
+        <div className="h-[calc(100vh-72px)] overflow-auto bg-gray-200">
+          <WatchList />
+        </div>
+        <div className="h-[calc(100vh-72px)] flex-1 overflow-scroll">
+          <StockWatch />
+        </div>
+      </div>
     </div>
   );
 }
 
-export default Dashboard
+export default Dashboard;

@@ -11,7 +11,7 @@ function StockWatch() {
   return (
     <>
       {stockData ? (
-        <div className="flex-1 p-5">
+        <div className="p-5">
           <div className="flex justify-between items-center">
             <p className="text-2xl font-bold">${stockData.c}</p>
             <p> {stockData.name} </p>

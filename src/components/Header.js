@@ -1,11 +1,10 @@
 import React from "react";
 import logo from "../images/download__2_-removebg-preview.png";
-import DefaultProfilePhoto from "../images/profile-icon-9.png";
 import ProfilePhoto from "../images/pexels-andrea-piacquadio-3777943.jpg"
 
 function Header() {
   return (
-    <div className=" shadow-lg">
+    <div className=" shadow-lg sticky top-0 z-50 bg-white">
       <div className="max-w-screen-2xl mx-auto">
         <div className="flex justify-between items-center px-10 py-5">
           <img className="h-6" src={logo} alt="" />
